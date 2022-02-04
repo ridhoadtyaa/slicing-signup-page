@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:checked + div svg {
+	@apply block;
+	@apply text-black;
+}
